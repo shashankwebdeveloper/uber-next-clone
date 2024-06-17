@@ -3,7 +3,7 @@ import tw from 'tailwind-styled-components'
 import Map from './components/Map';
 import { useRouter } from 'next/router';
 import RideSelector from './components/RideSelector';
-import { carlist } from './data/carList';
+
 import Link from 'next/link';
 const Confirm = () => {
 const router=useRouter();
