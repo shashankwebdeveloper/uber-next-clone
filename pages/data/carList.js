@@ -1,6 +1,6 @@
 
 
-export const  carlist = [
+export  const  carlist = [
     {
 imgUrl: 'https://i.ibb.co/cyvcpfF/uberx.png',
 service: 'UberX',

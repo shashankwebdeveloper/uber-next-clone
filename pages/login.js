@@ -5,7 +5,7 @@ import {signInWithPopup,onAuthStateChanged} from 'firebase/auth'
 import { auth,provider } from '@/firebase'
 const Login = () => {
     const router=useRouter();
-    useEffect(()=>{
+    useEffect((router)=>{
         onAuthStateChanged(auth,user=>{
           if(user){
             router.push('/')
