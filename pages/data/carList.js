@@ -1,6 +1,6 @@
 
 
-export  const  carlist = [
+  const  carlist = [
     {
 imgUrl: 'https://i.ibb.co/cyvcpfF/uberx.png',
 service: 'UberX',
@@ -30,3 +30,4 @@ service: 'Black SUV',
 multiplier: 2.8
 }
 ];
+export default carlist;
